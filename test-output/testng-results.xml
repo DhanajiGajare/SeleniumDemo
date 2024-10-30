@@ -2,19 +2,19 @@
 <testng-results ignored="0" total="2" passed="0" failed="1" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-28T07:32:57 GMT-07:00" name="Suite" finished-at="2024-10-28T07:33:08 GMT-07:00" duration-ms="10504">
+  <suite started-at="2024-10-29T23:09:22 GMT-07:00" name="Suite" finished-at="2024-10-29T23:09:42 GMT-07:00" duration-ms="20691">
     <groups>
       <group name="purchaseOrder">
-        <method signature="SubmitOrderTest.SubmitOrderTest(java.util.HashMap)[pri:0, instance:testNGTFramework.SubmitOrderTest@3ee37e5a]" name="SubmitOrderTest" class="testNGTFramework.SubmitOrderTest"/>
+        <method signature="SubmitOrderTest.SubmitOrderTest(java.util.HashMap)[pri:0, instance:testNGTFramework.SubmitOrderTest@6e0f5f7f]" name="SubmitOrderTest" class="testNGTFramework.SubmitOrderTest"/>
       </group> <!-- purchaseOrder -->
     </groups>
-    <test started-at="2024-10-28T07:32:57 GMT-07:00" name="Test" finished-at="2024-10-28T07:33:08 GMT-07:00" duration-ms="10504">
+    <test started-at="2024-10-29T23:09:22 GMT-07:00" name="Test" finished-at="2024-10-29T23:09:42 GMT-07:00" duration-ms="20691">
       <class name="testNGTFramework.SubmitOrderTest">
-        <test-method is-config="true" signature="launchAppliaction()[pri:0, instance:testNGTFramework.SubmitOrderTest@3ee37e5a]" started-at="2024-10-28T07:32:57 GMT-07:00" name="launchAppliaction" finished-at="2024-10-28T07:33:05 GMT-07:00" duration-ms="7715" status="PASS">
+        <test-method is-config="true" signature="launchAppliaction()[pri:0, instance:testNGTFramework.SubmitOrderTest@6e0f5f7f]" started-at="2024-10-29T23:09:22 GMT-07:00" name="launchAppliaction" finished-at="2024-10-29T23:09:39 GMT-07:00" duration-ms="17374" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchAppliaction -->
-        <test-method signature="SubmitOrderTest(java.util.HashMap)[pri:0, instance:testNGTFramework.SubmitOrderTest@3ee37e5a]" started-at="2024-10-28T07:33:05 GMT-07:00" name="SubmitOrderTest" data-provider="getData" finished-at="2024-10-28T07:33:08 GMT-07:00" duration-ms="2341" status="FAIL">
+        <test-method signature="SubmitOrderTest(java.util.HashMap)[pri:0, instance:testNGTFramework.SubmitOrderTest@6e0f5f7f]" started-at="2024-10-29T23:09:39 GMT-07:00" name="SubmitOrderTest" data-provider="getData" finished-at="2024-10-29T23:09:42 GMT-07:00" duration-ms="2763" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -24,26 +24,26 @@
           </params>
           <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
-              <![CDATA[element click intercepted: Element <button _ngcontent-cyg-c33="" routerlink="/dashboard/cart" class="btn btn-custom" style="margin-top: -10px;" tabindex="0">...</button> is not clickable at point (1280, 27). Other element would receive the click: <div _ngcontent-cyg-c31="" class="ngx-spinner-overlay ng-tns-c31-1 ng-trigger ng-trigger-fadeIn ng-star-inserted ng-animating" style="background-color: rgba(51, 51, 51, 0.8); z-index: 99999; position: fixed;">...</div>
-  (Session info: chrome=130.0.6723.70)
+              <![CDATA[element click intercepted: Element <button _ngcontent-hfq-c33="" routerlink="/dashboard/cart" class="btn btn-custom" style="margin-top: -10px;" tabindex="0">...</button> is not clickable at point (1280, 27). Other element would receive the click: <div _ngcontent-hfq-c31="" class="ngx-spinner-overlay ng-tns-c31-1 ng-trigger ng-trigger-fadeIn ng-star-inserted ng-animating" style="background-color: rgba(51, 51, 51, 0.8); z-index: 99999; position: fixed;">...</div>
+  (Session info: chrome=130.0.6723.91)
 Build info: version: '4.24.0', revision: '748ffc9bc3'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ff5a2503fb4eff9c6e3a39b35f359d50, clickElement {id=f.C03C8C46FE1C8CEC21496837C4AD081F.d.64CCA5B59FEE9174989951C645E85557.e.91}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.70, chrome: {chromedriverVersion: 130.0.6723.69 (3ec172b971b9..., userDataDir: C:\Users\DHANAJ~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49995}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49995/devtoo..., se:cdpVersion: 130.0.6723.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (ff5a2503fb4eff9c6e3a39b35f359d50)] -> css selector: [routerlink*='cart']]
-Session ID: ff5a2503fb4eff9c6e3a39b35f359d50]]>
+Command: [f9c0fe8ff478088b5d2c2d7454e912cf, clickElement {id=f.99938E9EBBCE1C534F330F430CB4A793.d.C6AE69EC9C6BC2B25C9A7968B9AF7350.e.92}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.91, chrome: {chromedriverVersion: 130.0.6723.91 (53ac07678369..., userDataDir: C:\Users\DHANAJ~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60159}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60159/devtoo..., se:cdpVersion: 130.0.6723.91, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f9c0fe8ff478088b5d2c2d7454e912cf)] -> css selector: [routerlink*='cart']]
+Session ID: f9c0fe8ff478088b5d2c2d7454e912cf]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button _ngcontent-cyg-c33="" routerlink="/dashboard/cart" class="btn btn-custom" style="margin-top: -10px;" tabindex="0">...</button> is not clickable at point (1280, 27). Other element would receive the click: <div _ngcontent-cyg-c31="" class="ngx-spinner-overlay ng-tns-c31-1 ng-trigger ng-trigger-fadeIn ng-star-inserted ng-animating" style="background-color: rgba(51, 51, 51, 0.8); z-index: 99999; position: fixed;">...</div>
-  (Session info: chrome=130.0.6723.70)
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button _ngcontent-hfq-c33="" routerlink="/dashboard/cart" class="btn btn-custom" style="margin-top: -10px;" tabindex="0">...</button> is not clickable at point (1280, 27). Other element would receive the click: <div _ngcontent-hfq-c31="" class="ngx-spinner-overlay ng-tns-c31-1 ng-trigger ng-trigger-fadeIn ng-star-inserted ng-animating" style="background-color: rgba(51, 51, 51, 0.8); z-index: 99999; position: fixed;">...</div>
+  (Session info: chrome=130.0.6723.91)
 Build info: version: '4.24.0', revision: '748ffc9bc3'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ff5a2503fb4eff9c6e3a39b35f359d50, clickElement {id=f.C03C8C46FE1C8CEC21496837C4AD081F.d.64CCA5B59FEE9174989951C645E85557.e.91}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.70, chrome: {chromedriverVersion: 130.0.6723.69 (3ec172b971b9..., userDataDir: C:\Users\DHANAJ~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49995}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49995/devtoo..., se:cdpVersion: 130.0.6723.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (ff5a2503fb4eff9c6e3a39b35f359d50)] -> css selector: [routerlink*='cart']]
-Session ID: ff5a2503fb4eff9c6e3a39b35f359d50
+Command: [f9c0fe8ff478088b5d2c2d7454e912cf, clickElement {id=f.99938E9EBBCE1C534F330F430CB4A793.d.C6AE69EC9C6BC2B25C9A7968B9AF7350.e.92}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.91, chrome: {chromedriverVersion: 130.0.6723.91 (53ac07678369..., userDataDir: C:\Users\DHANAJ~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60159}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60159/devtoo..., se:cdpVersion: 130.0.6723.91, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f9c0fe8ff478088b5d2c2d7454e912cf)] -> css selector: [routerlink*='cart']]
+Session ID: f9c0fe8ff478088b5d2c2d7454e912cf
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -95,17 +95,17 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SubmitOrderTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testNGTFramework.SubmitOrderTest@3ee37e5a]" started-at="2024-10-28T07:33:08 GMT-07:00" name="tearDown" finished-at="2024-10-28T07:33:08 GMT-07:00" duration-ms="359" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testNGTFramework.SubmitOrderTest@6e0f5f7f]" started-at="2024-10-29T23:09:42 GMT-07:00" name="tearDown" finished-at="2024-10-29T23:09:42 GMT-07:00" duration-ms="421" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="orderHistoryConfirmation(java.util.HashMap)[pri:0, instance:testNGTFramework.SubmitOrderTest@3ee37e5a]" started-at="2024-10-28T07:33:08 GMT-07:00" name="orderHistoryConfirmation" finished-at="2024-10-28T07:33:08 GMT-07:00" depends-on-methods="testNGTFramework.SubmitOrderTest.SubmitOrderTest" duration-ms="0" status="SKIP">
+        <test-method signature="orderHistoryConfirmation(java.util.HashMap)[pri:0, instance:testNGTFramework.SubmitOrderTest@6e0f5f7f]" started-at="2024-10-29T23:09:42 GMT-07:00" name="orderHistoryConfirmation" finished-at="2024-10-29T23:09:42 GMT-07:00" depends-on-methods="testNGTFramework.SubmitOrderTest.SubmitOrderTest" duration-ms="0" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[Method SubmitOrderTest.orderHistoryConfirmation(java.util.HashMap)[pri:0, instance:testNGTFramework.SubmitOrderTest@3ee37e5a] depends on not successfully finished methods]]>
+              <![CDATA[Method SubmitOrderTest.orderHistoryConfirmation(java.util.HashMap)[pri:0, instance:testNGTFramework.SubmitOrderTest@6e0f5f7f] depends on not successfully finished methods]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method SubmitOrderTest.orderHistoryConfirmation(java.util.HashMap)[pri:0, instance:testNGTFramework.SubmitOrderTest@3ee37e5a] depends on not successfully finished methods
+              <![CDATA[java.lang.Throwable: Method SubmitOrderTest.orderHistoryConfirmation(java.util.HashMap)[pri:0, instance:testNGTFramework.SubmitOrderTest@6e0f5f7f] depends on not successfully finished methods
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)

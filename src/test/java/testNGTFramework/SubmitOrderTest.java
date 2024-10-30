@@ -33,7 +33,8 @@ public class SubmitOrderTest  extends BaseTest{
    //if we have short data then we can use this way but if we have 1000 fields then we can not use this way
     // public void SubmitOrderTest(String email,String password,String productName) 
     public void SubmitOrderTest(HashMap<String,String>input) {
-    			  	 
+    	
+    	  System.out.println("this is the submitOrder class of getX");		  	 
 		  ProductCatelogue productCatelogue =landingPage.loginApplication(input.get("email"),input.get("password"));
 		  List<WebElement> products=productCatelogue.getProductList();
 		  productCatelogue.addproductToCart(input.get("product"));

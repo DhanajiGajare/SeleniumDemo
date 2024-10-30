@@ -67,11 +67,7 @@
 	    <version>2.18.0</version>
 	</dependency>
 
-    <dependency>
-    	<groupId>AutomationProject</groupId>
-    	<artifactId>SeleniumProject</artifactId>
-    	<version>0.0.1-SNAPSHOT</version>
-    </dependency>
+   
   </dependencies>
 
   <build>
